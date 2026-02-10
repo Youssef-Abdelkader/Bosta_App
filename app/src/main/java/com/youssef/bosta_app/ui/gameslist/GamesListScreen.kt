@@ -108,7 +108,7 @@ fun GameItem(game: com.youssef.bosta_app.domain.model.Game, onClick: () -> Unit)
             .height(220.dp)
             .clickable { onClick() },
         shape = MaterialTheme.shapes.medium,
-        elevation = CardDefaults.cardElevation(defaultElevation = 12.dp)
+        elevation = CardDefaults.cardElevation(defaultElevation = 13.dp)
     ) {
         Box {
             Image(
